@@ -23,7 +23,7 @@ export let TankStore = {
       this.add(item);
       this["player" + i] = item;
     }
-    console.log(this.barn);
+    // console.log(this.barn);
   },
   add: function (item) {
     this.barn[item.uuid] = item;

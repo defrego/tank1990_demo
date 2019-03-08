@@ -26,7 +26,7 @@ class Player {
     this.uuid = this.tank.uuid;
     this.chance = window.CONFIG.playChance[index];
     this.bDestroy = false;
-    console.log(this);
+    // console.log(this);
   }
 
   update() {
